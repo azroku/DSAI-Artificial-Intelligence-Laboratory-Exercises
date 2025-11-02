@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ai\Work\CPProjects\lab1azra\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ai\Work\CPProjects\lab1azra\src\Application.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\CPProjects\lab1azra\src\MainView.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\CPProjects\lab1azra\src\MainWindow.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\CPProjects\lab1azra\src\ToolBar.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\CPProjects\lab1azra\src\maze.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\BLOB.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\BaseDateTime.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\BinaryString.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\BoolCh.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\BufferString.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Circle.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Color.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\ColorID.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Conv.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Converter.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Date.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\DateTime.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Decimal.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\GUID.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Limits.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\LinePattern.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\PascalString.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Point.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\PointAndSize.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Range.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Rect.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\RectNormalized.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Size.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\SmallChFix.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\String.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\StringConverter.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\StringUtils.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Time.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Timer.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Tuple.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\TypeEnums.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Types.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Variant.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\VariantBase.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\VariantDesc.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\VariantVisitors.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\none.h">
+      <Filter>inc\td</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ActionItem.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ActionItemDescriptor.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Alert.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Application.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\BaseComboBox.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\BaseView.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Button.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Canvas.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\CheckBox.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Color.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ColorPicker.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ColorPopoverView.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Columns.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ComboBox.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Consumer.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Context.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ContextData.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ContextMenu.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ContextMenus.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Control.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Converter.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Cursor.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\DBComboBox.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\DataCtrl.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\DateEdit.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Dialog.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Display.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\DrawableAttributedString.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\DrawableButton.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\DrawableButtonWithDelegate.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\DrawableString.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\DrawableView.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\FileDialog.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Font.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Frame.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\GridComposer.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\GridLayout.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\HorizontalLayout.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\HorizontalNavigator.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\IDrawDelegate.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\IMessageConsumer.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\IPopoverButton.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\IProperty.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ISymbol.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Image.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ImageView.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\InitialParams.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\InputDevice.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Key.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Label.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Lang.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Layout.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\LineEdit.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\LinePatternPicker.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\LinePatternPopoverView.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\MenuBar.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\MenuItem.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Message.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\NatObject.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Navigator.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\NavigatorView.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\NumericEdit.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PageInfo.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Panel.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PaperInfo.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PasswordEdit.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PopoverButton.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PopoverView.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PrintInfo.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ProgressIndicator.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Properties.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Property.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PropertyEditor.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PropertyEditorSwitcher.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PropertyLayout.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PropertyValues.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PropertyViewScroller.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Shape.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Slider.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Sound.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\SplitterLayout.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\StackedLayout.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\StandardTabView.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\StatusBar.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Symbol.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\SymbolPopoverButton.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\SymbolPopoverView.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\TabView.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\TableEdit.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\TextAttribs.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\TextCtrl.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\TextEdit.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Texture.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\TimeEdit.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Timer.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ToolBar.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ToolBarItem.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Transformation.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Types.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\VerticalLayout.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\VerticalNavigator.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\View.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ViewHeapSwitcher.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ViewScroller.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ViewSwitcher.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\WinMain.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Window.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\WndID.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\natGUI.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\natID.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{845A1B22-C5A8-3D17-B439-1E1077ECC75A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\gui">
+      <UniqueIdentifier>{F29BEE71-0D14-3544-B3B8-1FD90BD0FFC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\td">
+      <UniqueIdentifier>{9C701BA2-1552-3DEB-A765-F6BA3F17E78A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{7557C533-E3D6-3C42-AA3B-B61528953CAB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

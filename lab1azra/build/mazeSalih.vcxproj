@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5B9D5CA4-0038-3DBB-A6A9-B5F237C73CE5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>mazeSalih</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Projects\Out\mazeSalih\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mazeSalih.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mazeSalih</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PATH=/other_bin;/other_bin/GTK;%PATH%;</LocalDebuggerEnvironment>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-devResPath=C:/Users/ai/Work/CPProjects/lab1azra</LocalDebuggerCommandArguments>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Projects\Out\mazeSalih\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mazeSalih.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mazeSalih</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PATH=/other_bin;/other_bin/GTK;%PATH%;</LocalDebuggerEnvironment>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-devResPath=C:/Users/ai/Work/CPProjects/lab1azra</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ai\Work\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;MU_WINDOWS;MU_64BIT;MU_DEBUG;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:\Users\ai\Work\CPProjects\lab1azra\build\mazeSalih.dir\Debug\</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;MU_WINDOWS;MU_64BIT;MU_DEBUG;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ai\Work\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ai\Work\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>\other_bin\myLib\mainUtilsD.lib;\other_bin\myLib\natGUID.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Projects/Out/mazeSalih/Debug/mazeSalih.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Projects/Out/mazeSalih/Debug/mazeSalih.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ai\Work\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MU_WINDOWS;MU_64BIT;MU_RELEASE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>C:\Users\ai\Work\CPProjects\lab1azra\build\mazeSalih.dir\Release\</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MU_WINDOWS;MU_64BIT;MU_RELEASE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ai\Work\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ai\Work\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>\other_bin\myLib\mainUtils.lib;\other_bin\myLib\natGUI.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Projects/Out/mazeSalih/Release/mazeSalih.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Projects/Out/mazeSalih/Release/mazeSalih.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ai\Work\CPProjects\lab1azra\src\Application.h" />
+    <ClInclude Include="C:\Users\ai\Work\CPProjects\lab1azra\src\MainView.h" />
+    <ClInclude Include="C:\Users\ai\Work\CPProjects\lab1azra\src\MainWindow.h" />
+    <ClInclude Include="C:\Users\ai\Work\CPProjects\lab1azra\src\ToolBar.h" />
+    <ClInclude Include="C:\Users\ai\Work\CPProjects\lab1azra\src\maze.h" />
+    <ClCompile Include="C:\Users\ai\Work\CPProjects\lab1azra\src\main.cpp" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\BLOB.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\BaseDateTime.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\BinaryString.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\BoolCh.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\BufferString.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Circle.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Color.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\ColorID.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Conv.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Converter.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Date.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\DateTime.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Decimal.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\GUID.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Limits.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\LinePattern.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\PascalString.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Point.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\PointAndSize.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Range.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Rect.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\RectNormalized.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Size.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\SmallChFix.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\String.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\StringConverter.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\StringUtils.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Time.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Timer.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Tuple.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\TypeEnums.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Types.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\Variant.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\VariantBase.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\VariantDesc.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\VariantVisitors.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\td\none.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ActionItem.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ActionItemDescriptor.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Alert.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Application.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\BaseComboBox.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\BaseView.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Button.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Canvas.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\CheckBox.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Color.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ColorPicker.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ColorPopoverView.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Columns.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ComboBox.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Consumer.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Context.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ContextData.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ContextMenu.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ContextMenus.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Control.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Converter.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Cursor.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\DBComboBox.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\DataCtrl.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\DateEdit.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Dialog.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Display.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\DrawableAttributedString.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\DrawableButton.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\DrawableButtonWithDelegate.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\DrawableString.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\DrawableView.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\FileDialog.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Font.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Frame.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\GridComposer.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\GridLayout.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\HorizontalLayout.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\HorizontalNavigator.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\IDrawDelegate.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\IMessageConsumer.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\IPopoverButton.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\IProperty.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ISymbol.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Image.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ImageView.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\InitialParams.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\InputDevice.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Key.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Label.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Lang.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Layout.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\LineEdit.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\LinePatternPicker.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\LinePatternPopoverView.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\MenuBar.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\MenuItem.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Message.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\NatObject.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Navigator.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\NavigatorView.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\NumericEdit.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PageInfo.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Panel.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PaperInfo.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PasswordEdit.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PopoverButton.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PopoverView.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PrintInfo.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ProgressIndicator.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Properties.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Property.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PropertyEditor.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PropertyEditorSwitcher.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PropertyLayout.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PropertyValues.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\PropertyViewScroller.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Shape.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Slider.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Sound.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\SplitterLayout.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\StackedLayout.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\StandardTabView.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\StatusBar.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Symbol.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\SymbolPopoverButton.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\SymbolPopoverView.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\TabView.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\TableEdit.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\TextAttribs.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\TextCtrl.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\TextEdit.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Texture.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\TimeEdit.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Timer.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ToolBar.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ToolBarItem.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Transformation.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Types.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\VerticalLayout.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\VerticalNavigator.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\View.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ViewHeapSwitcher.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ViewScroller.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\ViewSwitcher.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\WinMain.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\Window.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\WndID.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\natGUI.h" />
+    <ClInclude Include="C:\Users\ai\Work\Common\Include\gui\natID.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

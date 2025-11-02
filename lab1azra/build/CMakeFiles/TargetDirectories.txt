@@ -1,0 +1,2 @@
+C:/Users/ai/Work/CPProjects/lab1azra/build/CMakeFiles/mazeSalih.dir
+C:/Users/ai/Work/CPProjects/lab1azra/build/CMakeFiles/ALL_BUILD.dir
