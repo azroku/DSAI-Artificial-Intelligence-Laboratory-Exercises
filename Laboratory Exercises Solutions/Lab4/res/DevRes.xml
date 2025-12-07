@@ -1,0 +1,16 @@
+<?xml version='1.0'?>
+<DevRes regionals="Work/Common/Regionals">
+ <Langs>
+        <Lang id="EN" name="English"/>
+    </Langs>
+
+<Config path="Work/Common/ResConfigs/natGUI.xml"/>
+
+    <ArtWork>
+    </ArtWork>
+
+    <Translation>
+tr/[language]/main.xml file -->
+        <Config path=":tr/%s/main.xml"/>
+    </Translation>
+</DevRes>

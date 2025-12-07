@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<DevRes>
+    <Translations>
+        <Res id="appTitle" tr="8-Puzzle Solver"/>
+        <Res id="btnSolve" tr="Solve with A*"/>
+        <Res id="lblStatsTitle" tr="Statistics"/>
+        <Res id="lblExplored" tr="Explored Nodes: "/>
+        <Res id="lblPath" tr="Path Length: "/>
+    </Translations>
+</DevRes>
