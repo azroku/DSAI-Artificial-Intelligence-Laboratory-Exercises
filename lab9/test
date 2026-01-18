@@ -1,0 +1,96 @@
+#include <iostream>
+#include <vector>
+#include <cmath>
+#include <limits>
+
+// Paste your Solver class here (from Task 1).
+
+static void printVec(const std::vector<double>& x) {
+    std::cout << "[";
+    for (size_t i = 0; i < x.size(); i++) {
+        std::cout << x[i] << (i + 1 < x.size() ? ", " : "");
+    }
+    std::cout << "]";
+}
+
+int main() {
+    std::cout.setf(std::ios::fixed);
+    std::cout.precision(8);
+
+    // ---------------------------
+    // 1) Minimize: x^2 + (y-2)^2
+    // domain: x,y in (-10,10)
+    // True optimum: x=0, y=2, f=0
+    // ---------------------------
+    {
+        Solver s(150, {-10.0, -10.0}, {10.0, 10.0});
+        s.setFitness([](std::vector<double> v) {
+            double x = v[0], y = v[1];
+            return x*x + (y - 2.0)*(y - 2.0);
+        });
+
+        double bestY;
+        std::vector<double> bestX;
+        s.solve(bestY, bestX);
+
+        std::cout << "Problem 1 (min x^2 + (y-2)^2)\n";
+        std::cout << "  best y = " << bestY << "\n";
+        std::cout << "  best x = "; printVec(bestX); std::cout << "\n";
+        std::cout << "  expected approx: x=0, y=2, y=0\n\n";
+    }
+
+    // ---------------------------
+    // 2) Maximize: exp(-x^2)
+    // domain: x in (-15,15)
+    // True optimum: x=0, max=1
+    // Since Solver minimizes, minimize -exp(-x^2)
+    // ---------------------------
+    {
+        Solver s(120, {-15.0}, {15.0});
+        s.setFitness([](std::vector<double> v) {
+            double x = v[0];
+            return -std::exp(-(x*x)); // minimize negative => maximize original
+        });
+
+        double bestNeg;
+        std::vector<double> bestX;
+        s.solve(bestNeg, bestX);
+
+        double bestMax = -bestNeg; // convert back
+        std::cout << "Problem 2 (max exp(-x^2))\n";
+        std::cout << "  best max value = " << bestMax << "\n";
+        std::cout << "  best x = "; printVec(bestX); std::cout << "\n";
+        std::cout << "  expected approx: x=0, max=1\n\n";
+    }
+
+    // ---------------------------
+    // 3) Minimize: sum_{i=1..5} (x_i - i)^2
+    // domain: each x_i in (-10,10)
+    // True optimum: x_i = i, min=0
+    // ---------------------------
+    {
+        Solver s(250,
+                 {-10.0, -10.0, -10.0, -10.0, -10.0},
+                 { 10.0,  10.0,  10.0,  10.0,  10.0});
+
+        s.setFitness([](std::vector<double> v) {
+            double sum = 0.0;
+            for (int i = 1; i <= 5; i++) {
+                double diff = v[i - 1] - (double)i;
+                sum += diff * diff;
+            }
+            return sum;
+        });
+
+        double bestY;
+        std::vector<double> bestX;
+        s.solve(bestY, bestX);
+
+        std::cout << "Problem 3 (min sum_{i=1..5} (x_i - i)^2)\n";
+        std::cout << "  best y = " << bestY << "\n";
+        std::cout << "  best x = "; printVec(bestX); std::cout << "\n";
+        std::cout << "  expected approx: [1,2,3,4,5], y=0\n\n";
+    }
+
+    return 0;
+}
